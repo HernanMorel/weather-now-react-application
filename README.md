@@ -22,13 +22,13 @@ Esta fue mi primera vez obteniendo un API meteorológica a través de Axios, me 
 
 
 
-[Este es un enlace externo a la aplicación] ()
+[Este es un enlace externo a la aplicación] (https://hernanmorel-weather-now.netlify.app/)
 
 ## Cómo Iniciar
 
 ```
 # Clone this repository
-$ git clone ###tba
+$ git clone https://github.com/HernanMorel/weather-now-react-application
 
 # Go into the repository
 $ cd cv-app
@@ -77,13 +77,13 @@ This was my first time fetching a weather API through Axios, I found it much eas
 
 
 
-[This is an external link to the app] ()
+[This is an external link to the app] (https://hernanmorel-weather-now.netlify.app/)
 
 ## Get Started
 
 ```
 # Clone this repository
-$ git clone ###tba
+$ git clone https://github.com/HernanMorel/weather-now-react-application
 
 # Go into the repository
 $ cd cv-app
