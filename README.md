@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Weather Now App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+Se trata de una aplicación web que utiliza el API de OpenWeather para ofrecer información meteorológica en directo al usuario. Toma el nombre de la ciudad o del país, y responde con el clima actual de dicho elemento. Esto utiliza Axios que es una librería que ayuda a crear peticiones HTTP de forma externa y React en su forma más básica a través del create-react-app.
 
-In the project directory, you can run:
+## Lecciones Aprendidas
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esta fue mi primera vez obteniendo un API meteorológica a través de Axios, me pareció mucho más fácil navegar por las funciones de catch y error a través de este proceso, aunque los datos que se obtienen son bastante simples, la implementación de esta biblioteca a través de React fue bastante clara y concisa. Me sentí cómodo usando y modificando la librería Bootstrap que descargué a través de npm. También me di cuenta de que la tecla ENTER no estaba enviando la búsqueda de ciudad/país. A través de un proceso de investigación, encontré una manera de adjuntar una propiedad on.Click a la propia tecla Enter, y luego ejecutar la función de búsqueda a través de ese evento, haciendo que el sitio web sea mucho más fácil de usar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Posibles Funciones Adicionales
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Datos de precipitación/humedad. Ya que, como la mayoría de la gente sabe, los niveles de humedad por sí solos pueden dictar cómo se siente la temperatura de fuera.
 
-### `npm run build`
+- Me gustaría añadir imágenes de fondo intercambiables según el momento en que el usuario esté utilizando la aplicación... Por ejemplo, si el usuario utiliza la aplicación durante el día, el fondo cambiaría a una imagen con colores y texturas más claros y viceversa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Implementación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Este es un enlace externo a la aplicación] ()
 
-### `npm run eject`
+## Cómo Empezar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+# Clone this repository
+$ git clone ###tba
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go into the repository
+$ cd cv-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Remove current origin repository
+$ git remote remove origin
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+```
+# Install dependencies
+$ npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Start development server
+$ npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+## _ENG_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Weather Now App
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This is a web application which uses the OpenWeather API for a live weather feedback to the user. It takes in the city or country name, and it responds with the current weather of said item. This uses Axios which is a library that helps create HTTP requests externally and React in its most basic form through the create-react-app.
 
-### Advanced Configuration
+## Lessons Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+This was my first time fetching a weather API through Axios, I found it much easier to navigate the catch and error functions through this process., although the data that was being fetched is rather simple, implementing this library through React was rather clear and concise. I was comfortable using and modifying the Bootstrap library that I downloaded through npm. I also noticed that the ENTER key wasn’t submitting the city/country search. Through some digging, I found a way to attach an on.Click property to the Enter key itself, then ran the search function through that event, making the website much more user-friendly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Potential Future Features
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Precipitation/humidity data. Since, as most people know, the humidity levels alone can dictate how hot the outside temperature can be felt.
+
+- I would like to add interchangeable background images in accordance to when the user is using the app... For example: if the user is using the app during daytime hours, the background would change to an image showcasing lighter colors and textures and vice versa.
+
+## Deployment
+
+---
+
+[This is an external link to the app] ()
+
+## Get Started
+
+```
+# Clone this repository
+$ git clone ###tba
+
+# Go into the repository
+$ cd cv-app
+
+# Remove current origin repository
+$ git remote remove origin
+
+```
+
+```
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
+
+```

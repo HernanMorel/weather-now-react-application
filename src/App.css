@@ -1,9 +1,9 @@
 .weatherBg {
-  /* Nature art vector created by freepik - www.freepik.com */
-  background: url('./assets/2805830.jpg');
+  /* Snow mountain photo created by wirestock - www.freepik.com</a> */
+  background: url('./assets/beautiful-shot-snowy-mountain-sunset.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 50vh;
   display: flex;
   align-items: center;
@@ -12,8 +12,10 @@
 }
 
 .heading {
-  color: #262626;
+  color: #fff;
   font-weight: 700;
+  font-size: 2.5rem;
+  font-family: 'montserrat', sans-serif;
 }
 
 .weatherResultBox {
