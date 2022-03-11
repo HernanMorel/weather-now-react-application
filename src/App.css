@@ -1,0 +1,37 @@
+.weatherBg {
+  /* Nature art vector created by freepik - www.freepik.com */
+  background: url('./assets/2805830.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: #262626;
+  font-weight: 700;
+}
+
+.weatherResultBox {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.weatherIcon {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.weatherCity {
+  font-size: 35px;
+}
+.weatherTemp {
+  font-size: 55px;
+  font-weight: 700;
+}
