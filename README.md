@@ -31,7 +31,7 @@ Esta fue mi primera vez obteniendo un API meteorológica a través de Axios, me 
 $ git clone https://github.com/HernanMorel/weather-now-react-application
 
 # Go into the repository
-$ cd cv-app
+$ cd weather-now-react-application
 
 # Remove current origin repository
 $ git remote remove origin
@@ -86,7 +86,7 @@ This was my first time fetching a weather API through Axios, I found it much eas
 $ git clone https://github.com/HernanMorel/weather-now-react-application
 
 # Go into the repository
-$ cd cv-app
+$ cd weather-now-react-application
 
 # Remove current origin repository
 $ git remote remove origin
