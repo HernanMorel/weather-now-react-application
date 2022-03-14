@@ -22,7 +22,7 @@ Esta fue mi primera vez obteniendo un API meteorológica a través de Axios, me 
 
 
 
-[Este es un enlace externo a la aplicación] (https://hernanmorel-weather-now.netlify.app/)
+[Este es un enlace externo a la aplicación](https://hernanmorel-weather-now.netlify.app/)
 
 ## Cómo Iniciar
 
@@ -77,7 +77,7 @@ This was my first time fetching a weather API through Axios, I found it much eas
 
 
 
-[This is an external link to the app] (https://hernanmorel-weather-now.netlify.app/)
+[This is an external link to the app](https://hernanmorel-weather-now.netlify.app/)
 
 ## Get Started
 
