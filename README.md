@@ -47,7 +47,7 @@ $ npm start
 
 ```
 
-## _Es_
+## _En_
 
 # Weather Now App
 
