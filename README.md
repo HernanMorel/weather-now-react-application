@@ -2,56 +2,6 @@
 
 
 
-This is a web application which uses the OpenWeather API for a live weather feedback to the user. It takes in the city or country name, and it responds with the current weather of said item. This uses Axios which is a library that helps create HTTP requests externally and React in its most basic form through the create-react-app.
-
-## Lessons Learned
-
-
-
-This was my first time fetching a weather API through Axios, I found it much easier to navigate the catch and error functions through this process., although the data that was being fetched is rather simple, implementing this library through React was rather clear and concise. I was comfortable using and modifying the Bootstrap library that I downloaded through npm. I also noticed that the ENTER key wasn’t submitting the city/country search. Through some digging, I found a way to attach an on.Click property to the Enter key itself, then ran the search function through that event, making the website much more user-friendly.
-
-## Potential Future Features
-
-
-
-- Precipitation/humidity data. Since, as most people know, the humidity levels alone can dictate how hot the outside temperature can be felt.
-
-- I would like to add interchangeable background images in accordance to when the user is using the app... For example: if the user is using the app during daytime hours, the background would change to an image showcasing lighter colors and textures and vice versa.
-
-## Deployment
-
-
-
-[This is an external link to the app](https://hernanmorel-weather-now.netlify.app/)
-
-## Get Started
-
-```
-# Clone this repository
-$ git clone https://github.com/HernanMorel/weather-now-react-application
-
-# Go into the repository
-$ cd weather-now-react-application
-
-# Remove current origin repository
-$ git remote remove origin
-
-```
-
-```
-# Install dependencies
-$ npm install
-
-# Start development server
-$ npm start
-
-```
-## _Es_
-
-# Weather Now App
-
-
-
 Se trata de una aplicación web que utiliza el API de OpenWeather para ofrecer información meteorológica en directo al usuario. Toma el nombre de la ciudad o del país, y responde con el clima actual de dicho elemento. Esto utiliza Axios que es una librería que ayuda a crear peticiones HTTP de forma externa y React en su forma más básica a través del create-react-app.
 
 ## Lecciones Aprendidas
@@ -97,3 +47,53 @@ $ npm start
 
 ```
 
+## _Es_
+
+# Weather Now App
+
+
+
+This is a web application which uses the OpenWeather API for a live weather feedback to the user. It takes in the city or country name, and it responds with the current weather of said item. This uses Axios which is a library that helps create HTTP requests externally and React in its most basic form through the create-react-app.
+
+## Lessons Learned
+
+
+
+This was my first time fetching a weather API through Axios, I found it much easier to navigate the catch and error functions through this process., although the data that was being fetched is rather simple, implementing this library through React was rather clear and concise. I was comfortable using and modifying the Bootstrap library that I downloaded through npm. I also noticed that the ENTER key wasn’t submitting the city/country search. Through some digging, I found a way to attach an on.Click property to the Enter key itself, then ran the search function through that event, making the website much more user-friendly.
+
+## Potential Future Features
+
+
+
+- Precipitation/humidity data. Since, as most people know, the humidity levels alone can dictate how hot the outside temperature can be felt.
+
+- I would like to add interchangeable background images in accordance to when the user is using the app... For example: if the user is using the app during daytime hours, the background would change to an image showcasing lighter colors and textures and vice versa.
+
+## Deployment
+
+
+
+[This is an external link to the app](https://hernanmorel-weather-now.netlify.app/)
+
+## Get Started
+
+```
+# Clone this repository
+$ git clone https://github.com/HernanMorel/weather-now-react-application
+
+# Go into the repository
+$ cd weather-now-react-application
+
+# Remove current origin repository
+$ git remote remove origin
+
+```
+
+```
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
+
+```
