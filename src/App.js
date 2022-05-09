@@ -2,15 +2,15 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css"
 import { useState } from 'react';
 import './App.css';
-
+{/*the bootstrap library must be imported as always*/}
 
 function App() {
 
-//although this is a relativey small project the apikey is fine where it currently is. 
-  //this would be stored in either an env file then through git ignore through secret keyy.
+  {/*although this is a relativey small project the apikey is fine where it currently is. 
+this would be stored in either an env file then through git ignore through secret key or even better, outside the folder.*/}
   const apiKey = "d6036013bb0cfa3ea5f4a548b5f2a3dd"
 
-
+  {/*first implementation of useState, which will allow you to track changes in memory, facilitating the syntax and making this app possible through react*/}
   const [inputCity, setInputCity] = useState('')
   const [data, setData] = useState({})
 
@@ -48,6 +48,7 @@ function App() {
 
   return (
     <div className='col-md-12'>
+    {/*those columns are responsive, the app will be much more complicated without the bootstrap library*/}
       <div className='weatherBg'>
         <h1 className='heading'>Weather Now</h1>
         <div className='d-grid gap-3 col-4 mt-4'>
@@ -62,6 +63,7 @@ function App() {
       </div>
       {Object.keys(data).length > 0 &&
         <div className='col-md-12 text-center mt-5'>
+          {/*standard bootstrap stuffs*/}
           <div className="shadow rounded weatherResultBox">
 
             <img className='weatherIcon'
