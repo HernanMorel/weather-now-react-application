@@ -6,7 +6,8 @@ import './App.css';
 
 function App() {
 
-
+//although this is a relativey small project the apikey is fine where it currently is. 
+  //this would be stored in either an env file then through git ignore through secret keyy.
   const apiKey = "d6036013bb0cfa3ea5f4a548b5f2a3dd"
 
 
