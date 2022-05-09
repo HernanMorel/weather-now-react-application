@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  {/*although this is a relativey small project the apikey is fine where it currently is. 
+  {/*although this is a relativey small project the api key is fine where it currently is. 
 this would be stored in either an env file then through git ignore through secret key or even better, outside the folder.*/}
   const apiKey = "d6036013bb0cfa3ea5f4a548b5f2a3dd"
 
@@ -14,17 +14,18 @@ this would be stored in either an env file then through git ignore through secre
   const [inputCity, setInputCity] = useState('')
   const [data, setData] = useState({})
 
+  {/*Here you are editing the api url, so that it becomes dynamic, making cityName a variable which can be changed according to the call*/}
   const getWeatherDetails = (cityName) => {
     if (!cityName) return
     const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiKey
 
-
+    {/*this is using axios to handle the respond events from the api call. */}
     axios.get(apiURL).then((res) => {
 
       console.log("response", res.data)
 
       setData(res.data)
-
+      {/*here axios is handling the error call, in case there is one*/}
     }).catch((err) => {
       console.log("err", err)
     })
